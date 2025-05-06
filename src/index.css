@@ -67,7 +67,6 @@ body {
 
 li {
   border-radius: 30px;
-  position: -webkit-sticky;
   display: inline-block;
   margin: 0px 3px;
   padding: 7px;
@@ -77,11 +76,31 @@ li {
   margin-left: 1.3em;
   z-index: 3;
   cursor: not-allowed;
-  animation: infinite;
-
-  
-
+  animation: color 3s infinite;
+  animation-fill-mode: forwards;
 } 
+@keyframes color  {
+  0% { background-color: #ce3636; }
+  5% { background-color: #3f0707; }
+  15% { background-color: #331ac4; }
+  20% { background-color: #5eff00; }
+  25% { background-color: #1858a1; }
+  30% { background-color: #3a0505; }
+  35% { background-color: #bb891e; }
+  40% { background-color: #b3bd2d; }
+  46% { background-color: #2f00ff; }
+  50% { background-color: #bb133d; }
+  55% { background-color: #1ee75b; }
+  60% { background-color: #ff0000; }
+  66% { background-color: #350505; }
+  70% { background-color: #ff0000; }
+  75% { background-color: #2b0808; }
+  80% { background-color: #ff9900; }
+  85% { background-color: #ffff00; }
+  90% { background-color: #33cc33; }
+  95% { background-color: #3399ff; }
+  100% { background-color: #ff00ff; }
+}
 
 .shit {
   display: flex;
