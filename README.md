@@ -1,1 +1,1 @@
-It's me practicing CSS cuz i never really cared about it before.<br />.i'm gonna try create some animation on the li items so stay tuned<br /> <sub>or just fork it and play with it too</sub>. <br />.it might be good for someone starting out with CSS <hr />
+It's me practicing CSS cuz i never really cared about it before.<br />.i'm gonna try create some animation on the li items so stay tuned<br /> <sub>or just fork it and play with it too</sub>. <br /><u>it might be good for someone starting out with CSS</u> <hr />
